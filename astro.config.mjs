@@ -34,5 +34,6 @@ export default defineConfig({
     sitemap(),
     robotsTxt(),
     svelte()
-  ]
+  ],
+  base: 'CLS-project',
 })
