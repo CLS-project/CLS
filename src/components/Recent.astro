@@ -45,7 +45,7 @@ const events = await fetchEvents()
             color: event.payload.review.state === EventReviewState.Approved ? 'text-green-500' : event.payload.review.state === EventReviewState.ChangesRequested ? 'text-red-500' : 'text-neutral-200',
             title: `${event.payload.pull_request.title} (#${event.payload.pull_request.number})`
           } : {
-            href: 'https://github.com/nunogois',
+            href: 'https://github.com/CLS-project',
             icon: 'fa6-brands:github',
             color: 'text-neutral-200',
             title: 'Unknown activity'

@@ -73,7 +73,7 @@
       <div class="flex justify-between items-center mb-2">
         <div class="flex items-center gap-1">
           <slot name="image-small" />
-          <h2 class="md:text-xl">Nuno Góis AI</h2>
+          <h2 class="md:text-xl">CLS project</h2>
         </div>
         <button
           class="bg-neutral-700 w-8 h-8 md:w-10 md:h-10 rounded-full flex items-center justify-center md:text-xl"
