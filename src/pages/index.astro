@@ -38,13 +38,13 @@ import Recent from '../components/Recent.astro';
   <Recent />
   <section class="flex mt-20 mb-40 justify-center items-center">
     <ScrollFadeIn class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-10 max-w-5xl mx-6">
-      <LinkBox href="/about" title="ABOUT" description="Get to know my journey, my love for coding, and the things that keep me going. Learn more about the person behind the code.">
+      <LinkBox href="/about" title="ABOUT" description="Get to know more about the CLS project behind the code.">
         <Image src={aboutImg} class="w-20 h-20 md:w-44 md:h-44" alt="About" />
       </LinkBox>
-      <LinkBox href="/skills" title="SKILLS" extraClass="delay-100" description="I've had my hands on numerous tech stacks and am always on the lookout for the next thing to learn. Explore my skill set.">
+      <LinkBox href="/src/pages/repositories" title="PACKAGES" extraClass="delay-100" description="Packages for CLS.">
         <Image src={skillsImg} class="w-20 h-20 md:w-44 md:h-44" alt="Skills" />
       </LinkBox>
-      <LinkBox href="/experience" title="EXPERIENCE" extraClass="delay-200" description="From professional milestones to personal projects. Delve into my professional journey and see what I've been up to.">
+      <LinkBox href="/src/pages/data" title="EXPERIENCE" extraClass="delay-200" description="Date for and from CLS.">
         <Image src={experienceImg} class="w-20 h-20 md:w-44 md:h-44" alt="Experience" />
       </LinkBox>
     </ScrollFadeIn>
