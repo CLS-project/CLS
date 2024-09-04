@@ -13,7 +13,7 @@ const MAIN = 'refs/heads/main'
 export const fetchEvents = async (): Promise<Event[]> => {
   try {
     const res = await fetch(
-      'https://api.github.com/users/nunogois/events?per_page=100'
+      'https://api.github.com/users/CLS-project/events?per_page=100'
     )
 
     const events: Event[] = await res.json()
@@ -46,7 +46,7 @@ export const fetchEvents = async (): Promise<Event[]> => {
         if (!eventMap.has(key)) eventMap.set(key, event)
       } else if (
         isPullRequestReviewEvent(event) &&
-        event.payload.pull_request.user.login !== 'nunogois'
+        event.payload.pull_request.user.login !== 'CLS-project'
       ) {
         const key = `${event.repo.name}-${event.payload.pull_request.number}`
         if (!eventMap.has(key)) eventMap.set(key, event)

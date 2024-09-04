@@ -3,7 +3,7 @@ import type { Project, Projects } from '../types'
 export const fetchProjects = async (): Promise<Projects> => {
   try {
     const res = await fetch(
-      'https://api.github.com/users/nunogois/repos?per_page=100'
+      'https://api.github.com/users/CLS-project/repos?per_page=100'
     )
 
     const projects: Project[] = await res.json()
