@@ -13,11 +13,16 @@ const skills = await fetchSkills()
 ---
 
 <Layout title="Repositories of CLS">
+
     <Section title="Repositories of CLS">
-        <iframe src="https://github.com/CLS-project">
+        All CLS repositories are at: <a href="https://github.com/CLS-project" target="_blank" class="underline">https://github.com/CLS-project</a>.
+        <!--<iframe src="https://github.com/CLS-project">-->
             <!--<b>IFrame is available here</b>-->
-        </iframe>
+        <!--</iframe>-->
     </Section>
+
+    <div class="github-card" data-github="CLS-project" data-width="400" data-height="317" data-theme="medium"></div>
+    <script src="https://cdn.jsdelivr.net/gh/lepture/github-cards@latest/jsdelivr/widget.js"></script>
 
 </Layout>
 
