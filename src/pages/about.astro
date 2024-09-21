@@ -2,7 +2,7 @@
 import { Image } from 'astro:assets'
 import Layout from '../layouts/Layout.astro'
 import Section from '../components/Section.astro'
-import aboutImg from '../assets/photos/about.jpg'
+import flowImg from '../assets/photos/CLS-flowchart.png'
 import skillsImg from '../assets/skills.png'
 import experienceImg from '../assets/experience.png'
 import { DATE } from '../constants/dates'
@@ -26,12 +26,15 @@ import LinkBox from '../components/LinkBox.astro'
       </p>
       <!--<div-->
       <!--  class='my-10 flex flex-col lg:flex-row gap-10 rounded-xl overflow-hidden justify-center items-center'-->
-      >
-        <Image
-          class='flex-shrink-0 w-32 h-32 mx-auto rounded-full md:w-52 md:h-52 object-cover object-center'
-          src={aboutImg}
-          alt='about'
-        />
+
+      <p class="mt-10 mb-5 text-center font-bold justify-center">
+        The flowchart of CLS -- the pillars and key processes in a loop.
+      </p>
+      <Image
+        class='flex-shrink-0 w-226 h-178 mx-auto rounded-full md:w-52 md:h-52 object-cover object-center'
+        src={flowImg}
+        alt='Flowchart of CLS'
+      />
         <!--<div class='items-center'>-->
         <!--  <p class='text-left font-bold'>-->
         <!--    My goal in life is to be the best version of myself that I can, trying-->
