@@ -16,6 +16,17 @@ const skills = await fetchSkills()
 
     <Section title="Repositories of CLS">
         All CLS repositories are at: <a href="https://github.com/CLS-project" target="_blank" class="underline">https://github.com/CLS-project</a>.
+        <script src="https://cdn.jsdelivr.net/npm/github-embed-repo/dist/github_embed_repo.min.js"></script>
+        <script>
+            github_embed_repo.default('repo-details', 'cls-project', 'CLS-project.github.io', {
+                showProfile: true,
+                showStats: true,
+                theme: 'dark',
+                statsToShow: ['stars', 'forks', 'watchers', 'issues', 'pull_requests', 'contributors'],
+                component: 'repo'
+            });
+        </script>
+
         <!--<iframe src="https://github.com/CLS-project">-->
             <!--<b>IFrame is available here</b>-->
         <!--</iframe>-->
