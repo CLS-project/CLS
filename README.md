@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="https://www.CLS-project.github.io/public/thumbnail.png?raw=true" alt="CLS-project"/>
+  <img src="https://CLS-project.github.io/public/thumbnail.png?raw=true" alt="CLS-project"/>
 </p>
 
 # CLS-website
 
-This is the host website for the CLS project: [https://www.CLS-project.github.io](https://www.CLS-project.github.io).
+This is the host website for the CLS project: [https://CLS-project.github.io](https://CLS-project.github.io).
 
 Built with [Astro 3.0](https://astro.build/).
 

@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 128 128">
-  <text x="10" y="90" font-family="Arial, sans-serif" font-size="80" font-weight="bold">NG</text>
+  <text x="10" y="90" font-family="Arial, sans-serif" font-size="80" font-weight="bold">CLS</text>
   <style>
         text { fill: #000; }
         @media (prefers-color-scheme: dark) {
