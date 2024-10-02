@@ -8,6 +8,7 @@ import experienceImg from '../assets/experience.png'
 import { fetchSkills } from '../api/skills'
 import ScrollFadeIn from '../components/ScrollFadeIn.astro'
 import LinkBox from '../components/LinkBox.astro'
+// import { github_embed_repo } from '../utils/github_embed_repo.min.js'
 
 const skills = await fetchSkills()
 ---
@@ -16,7 +17,7 @@ const skills = await fetchSkills()
 
     <Section title="Repositories of CLS">
         All CLS repositories are at: <a href="https://github.com/CLS-project" target="_blank" class="underline">https://github.com/CLS-project</a>.
-        <script src="https://cdn.jsdelivr.net/npm/github-embed-repo/dist/github_embed_repo.min.js"></script>
+        <script src="../utils/github_embed_repo.min.js"></script>
         <script>
             github_embed_repo.default('repo-details', 'cls-project', 'CLS-project.github.io', {
                 showProfile: true,
