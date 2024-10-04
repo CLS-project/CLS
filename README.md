@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://CLS-project.github.io/public/thumbnail.png?raw=true" alt="CLS-project"/>
+  <img src="public/thumbnail.png" alt="CLS-project"/>
 </p>
 
 # CLS-website
